@@ -29,6 +29,7 @@ setup(name='searchtweets',
       url='https://github.com/twitterdev/search-tweets-python',
       author='Fiona Pigott, Jeff Kolb, Josh Montague, Aaron Gonzales',
       long_description=io.open('README.rst', 'r', encoding="utf-8").read(),
+      #Changed open() to io.open()
       author_email='agonzales@twitter.com',
       license='MIT',
       version=VERSION,
